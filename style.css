@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+    background-image: url(Img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.starbucks{
+    width: 19rem;
+    
+}
+header img{
+    width: 5.5rem;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    color: #ffffff;
+}
+
+p{
+    width: 15rem;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+span{
+    color: #017143;
+    font-weight: 900px;
+    font-size: 2.5rem;
+}
+
+button{
+    background-color: #017143;
+    color: #ffff;
+    border-radius: 40px;
+    border: none;
+    padding: 10%;
+    margin-top: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background: #018950;
+
+}
+
+main img{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.menu img{
+    width: 40%;
+}
+footer{
+    margin-top: -0.5rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: 2.5s;
+    margin-left: 10rem;
+}
+
+.circulo{
+    background-color: #017143;
+    width: 25rem;
+    height: 25rem;
+    margin-top: 45rem;
+    position: absolute;
+    z-index: -1;
+    border-top-left-radius: 100%;
+}
+button:hover{
+    transform: translateY(-10px);
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+@media screen and (min-width: 900px){
+    body{
+        padding: 2.5rem;
+         background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20rem;
+    }
+    main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    .menu{
+        width: 20rem;
+        margin-left: 20rem;
+    }
+    .starbucks{
+        width: 20rem;
+        margin-top: 3rem;
+    }
+    .circulo{
+        padding: 15%;
+        margin-top: 20%;
+        right: -2.5rem;
+        height: 35rem;
+        padding-right: 30%;
+        
+    }
+    footer{
+        margin-top: -5rem;
+    }
+        
+    }
+
